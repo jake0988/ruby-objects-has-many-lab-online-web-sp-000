@@ -23,8 +23,9 @@ end
 def author_name
 if @author.name
   @author.name
-end
 else
+  nil
+end
 end
 
 
