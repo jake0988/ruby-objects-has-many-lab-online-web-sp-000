@@ -28,7 +28,7 @@ def add_post_by_title(title)
   @@all << post
 end
 
-def self.post_count(title)
+def self.post_count
  count = @@all.count
  count
 end
