@@ -12,7 +12,6 @@ end
 
 def add_post(post)
   new_post = post.title
-  new_post
 end
 
 def add_post_by_title(title)
