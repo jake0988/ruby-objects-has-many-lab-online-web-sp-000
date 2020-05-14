@@ -5,11 +5,10 @@ class Author
 def initialize(name)
   @name = name
   @posts = []
-
+  @@all << self
 end
 
 def posts
-  @@all << add_post(post)
   @@all
 end
 
