@@ -29,7 +29,6 @@ def add_post_by_title(title)
 end
 
 def self.post_count
-  binding.pry
  count = @@all.count
  count
 end
