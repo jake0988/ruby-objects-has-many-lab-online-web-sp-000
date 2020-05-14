@@ -23,7 +23,7 @@ class Artist
     count = 0
     song.artist.each do |c|
         count += 1
-      end
+      
     end
       count
   end
