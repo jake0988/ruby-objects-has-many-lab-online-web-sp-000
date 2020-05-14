@@ -21,7 +21,6 @@ end
 
 def self.post_count
  Post.count
- count
 end
 
 end
