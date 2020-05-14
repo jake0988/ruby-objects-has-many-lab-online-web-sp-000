@@ -9,7 +9,7 @@ def initialize(name)
 end
 
 def posts
-  @posts
+  @posts << @name
 end
 
 def add_post(post)
