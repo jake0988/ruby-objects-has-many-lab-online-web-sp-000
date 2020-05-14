@@ -1,6 +1,5 @@
 class Author
   attr_accessor :name, :posts
-  @@all = []
 
 def initialize(name)
   @name = name
@@ -8,8 +7,7 @@ def initialize(name)
 end
 
 def posts
-  @posts << self
-  @posts
+  Post.all.select {|post| post.author == self}
 end
 
 def self.all
