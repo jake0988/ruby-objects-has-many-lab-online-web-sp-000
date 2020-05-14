@@ -29,9 +29,8 @@ def add_post_by_title(title)
 end
 
 def self.post_count(title)
-  post = Post.new(title)
-  post.name
-
+ count = @@all.count
+ count
 end
 
 end
