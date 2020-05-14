@@ -21,9 +21,9 @@ class Artist
 
   def self.song_count
     count = 0
-    song.artist.each do |c|
+    @artist.song.each do |c|
         count += 1
-      
+
     end
       count
   end
