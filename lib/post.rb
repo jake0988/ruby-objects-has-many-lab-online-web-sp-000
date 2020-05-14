@@ -21,10 +21,10 @@ def author
 end
 
 def author_name
+if @author.name
   @author.name
-  # if @author_name == []
-  #   nil
-  # end
+end
+else
 end
 
 
