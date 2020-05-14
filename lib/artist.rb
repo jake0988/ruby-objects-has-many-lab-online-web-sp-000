@@ -25,12 +25,9 @@ class Artist
 
     song_name.artist = self
 
-      @@songs << song_name
-
   end
 
   def self.song_count
-
       Song.all.count
   end
 end
