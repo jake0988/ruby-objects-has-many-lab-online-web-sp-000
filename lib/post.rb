@@ -21,11 +21,11 @@ def author
 end
 
 def author_name
-if @author.name
-  @author.name
-else
-  nil
-end
+# if @author.name
+#   @author.name
+# else
+#   nil
+# end
 end
 
 
