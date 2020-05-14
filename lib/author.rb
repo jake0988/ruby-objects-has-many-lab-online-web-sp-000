@@ -20,7 +20,7 @@ end
 def add_post(post)
   new_post = post.author = self
   @@all << new_post
-  post
+  new_post
 end
 
 def add_post_by_title(title)
