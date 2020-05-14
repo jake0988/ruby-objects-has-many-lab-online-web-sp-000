@@ -11,7 +11,7 @@ def posts
 end
 
 def add_post(post)
-  new_post = post.author = self
+  new_post = post.self
   new_post
   @@all << new_post
 end
