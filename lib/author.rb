@@ -9,7 +9,7 @@ def initialize(name)
 end
 
 def posts
-  @@all << @name
+  @@all << add_post(post)
   @@all
 end
 
