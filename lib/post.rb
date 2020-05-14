@@ -21,8 +21,8 @@ def author
 end
 
 def author_name
-if name.author
-  name.author
+if self.author
+  self.author
 else
   nil
 end
