@@ -11,7 +11,7 @@ def posts
 end
 
 def add_post(post)
-  post.title
+  post.title = self
 end
 
 def add_post_by_title(title)
