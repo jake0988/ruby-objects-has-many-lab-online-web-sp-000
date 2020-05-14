@@ -9,7 +9,8 @@ def initialize(name)
 end
 
 def posts
-  @posts << @name
+  @@all << @name
+  @@all
 end
 
 def self.all
