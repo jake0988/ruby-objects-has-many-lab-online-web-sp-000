@@ -20,7 +20,7 @@ def add_post_by_title(title)
 end
 
 def self.post_count
- Post.count
+  self.Post.count
 end
 
 end
