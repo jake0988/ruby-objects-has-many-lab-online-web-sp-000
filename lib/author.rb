@@ -15,7 +15,6 @@ end
 
 def add_post(post)
   new_post = post.author = self
-  @@all << new_post
   new_post
 end
 
