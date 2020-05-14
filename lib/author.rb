@@ -10,10 +10,6 @@ def posts
   Post.all.select {|post| post.author == self}
 end
 
-def self.all
-  @@all
-end
-
 def add_post(post)
   new_post = post.author = self
   new_post
